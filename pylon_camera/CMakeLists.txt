@@ -16,7 +16,7 @@ if(NOT ${Pylon_FOUND})
 endif()
 
 catkin_package(
-   INCLUDE_DIRS include
+   INCLUDE_DIRS
 #  LIBRARIES pylon_camera
    CATKIN_DEPENDS cv_bridge image_transport roscpp sensor_msgs
 #  DEPENDS system_lib
@@ -27,7 +27,6 @@ catkin_package(
 ###########
 
 include_directories(
-  include
   ${catkin_INCLUDE_DIRS}
   ${Pylon_INCLUDE_DIRS}
 )

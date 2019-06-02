@@ -23,7 +23,7 @@ generate_messages(
 catkin_package(
 #  INCLUDE_DIRS include
 #  LIBRARIES teme_msgs
-#  CATKIN_DEPENDS geometry_msgs message_generation std_msgs
+   CATKIN_DEPENDS geometry_msgs message_runtime std_msgs
 #  DEPENDS system_lib
 )
 
