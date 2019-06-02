@@ -1,0 +1,4 @@
+<launch>
+    <node name="custom_pylon_node_bottom" type="custom_pylon_node_low_scale" pkg="pylon_camera" ns="camera_node_bottom"/>
+    <node name="pose_estimate_bottom" type="pose_estimate" pkg="image_processing" ns="camera_node_bottom" output="screen" />
+</launch>
